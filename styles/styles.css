@@ -1,0 +1,134 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+body {
+    background: linear-gradient(90deg, hsla(51, 95%, 58%, 1) 0%, hsla(25, 83%, 57%, 1) 100%);
+    padding: 1em 1em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+img {
+    width: 100%;
+    height: auto;
+    padding: 0.5em;
+    border: 2px solid gray;
+    box-shadow: 0 0 5px gray;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+i {
+    color: rgb(236, 130, 54);
+}
+section {
+    margin: 3em;
+    background: linear-gradient(90deg, hsla(25, 83%, 57%, 1) 0%, hsla(51, 95%, 58%, 1) 100%);
+}
+.nav-span {
+    display: none;
+    margin: 0 1em;
+}
+.nav-item {
+    display: inline;
+    margin: 0 1.5em;
+}
+.nav-item:hover .nav-span{ 
+        display: inline;
+        color: rgb(58, 58, 56);
+}
+.nav-item:hover i {
+    color: rgb(58, 58, 56);
+}
+
+.info {
+    padding: 10px 0px 10px 30px;
+    /* width: 80%; */
+    box-shadow: 0px 0px 40px rgb(104, 97, 40);
+    border: 3px solid rgba(172, 139, 34, 0.4);
+    margin: 2em;
+    background-color: rgb(231, 231, 199);
+}
+.info-main {
+    font-weight: bold;
+    margin-right: 1.5em;
+}
+.info-wrapper {
+    padding: 0.5em;
+    margin: 1em;
+    box-shadow: 0 0 5px rgb(107, 107, 107);
+}
+.info-wrapper:hover {
+    /* box-shadow: 0 0 5px rgb(236, 130, 54); */
+    color: rgb(58, 58, 56);
+}
+.info-wrapper:hover a {
+    color: rgb(58, 58, 56);
+}   
+.cert-div {
+    display: inline;
+    width: 8em;
+    margin: 1em;
+}
+.cert-div:hover img {
+    border: 2px solid rgb(236, 130, 54);
+    box-shadow: 0px 0px 40px rgb(236, 130, 54);
+}
+.img-div {
+    width: 30em;
+    margin: 2em;
+}
+.welcome h1 {
+    padding: 1em;
+    text-align: center;
+}
+.welcome-wrapper {
+    padding: 0 2em 2em 2em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 2em;
+}
+.project-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+}
+.project-info:hover {
+    box-shadow: 0 0 10px rgb(107,107,107);
+
+}
+.fancy {
+    font-size: 1.5em;
+    padding: 2em;
+}
+.me {
+    width: 15em;
+}
+.button a{
+    background-color: #ec8235;
+    padding: 1em;
+    border-radius: 3em;
+}
+.button a:hover {
+    background-color: #fadb32;
+    box-shadow: 0 0 1em rgb(107, 107, 107);
+    color: rgb(110, 110, 110);
+}
