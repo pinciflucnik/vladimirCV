@@ -47,7 +47,6 @@ section {
 
 .info {
     padding: 10px 0px 10px 30px;
-    /* width: 80%; */
     box-shadow: 0px 0px 40px rgb(104, 97, 40);
     border: 3px solid rgba(172, 139, 34, 0.4);
     margin: 2em;
@@ -63,7 +62,6 @@ section {
     box-shadow: 0 0 5px rgb(107, 107, 107);
 }
 .info-wrapper:hover {
-    /* box-shadow: 0 0 5px rgb(236, 130, 54); */
     color: rgb(58, 58, 56);
 }
 .info-wrapper:hover a {
