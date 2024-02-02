@@ -87,7 +87,12 @@ section {
 }
 @media (max-width: 400px) {
     .img-div {
-        width: 10em;
+        width: 14em;
+    }
+}
+@media (max-width: 600px) {
+    .welcome {
+        font-size: 10px;
     }
 }
 .welcome h1 {
