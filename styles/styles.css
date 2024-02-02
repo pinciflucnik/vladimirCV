@@ -85,6 +85,11 @@ section {
     width: 20em;
     margin: 2em 0 2em 0;
 }
+@media (max-width: 400px) {
+    .img-div {
+        width: 10em;
+    }
+}
 .welcome h1 {
     padding: 1em;
     text-align: center;
@@ -123,6 +128,11 @@ section {
 .fancy {
     font-size: 1.5em;
     padding: 0.2em;
+}
+@media (max-width: 400px) {
+    .fancy {
+        font-size: 1em;
+    }
 }
 .me {
     width: 15em;
