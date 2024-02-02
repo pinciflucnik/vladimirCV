@@ -127,6 +127,9 @@ section {
 .me {
     width: 15em;
 }
+.button {
+    margin: 2em;
+}
 .button a{
     background-color: #ec8235;
     padding: 1em;
